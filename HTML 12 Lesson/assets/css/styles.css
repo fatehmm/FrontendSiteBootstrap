@@ -1,0 +1,265 @@
+body {
+    /* height: 500vh; */
+}
+#motto-wrapper {
+    position: relative;
+    height: 60vh;
+    top: 98px;
+    display: flex;
+    align-items: center;
+}
+header .navbar {
+    z-index: 1;
+}
+#motto-wrapper{
+   
+    background-color: cyan;
+    background-image: url(https://bootstrapmade.com/demo/templates/Mentor/assets/img/hero-bg.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+#motto-wrapper::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#info-section{
+    position: relative;
+    justify-content: flex-start;
+    padding-left: 7%;
+}
+#who-we-are{
+    position: relative;
+    top: 98px;
+    align-items: stretch;
+
+}
+#who-we-are div ul li i{
+    color: greenyellow !important;
+}
+#who-we-are div ul li{
+    padding: 6px 0;
+}
+#who-we-are div {
+    
+}
+#pages {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 135px;
+}
+#pages ul {
+    flex-basis: 100%;
+}
+#why-choose {
+    position: relative;
+    top: 200px;
+}
+.rounded-icon {
+    background-color: rgba(29, 182, 29, 0.2);
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html body main div.container div#why-choose.d-flex div.col-9.bg-danger.d-flex.align-items-center.justify-content-evenly div.col-3.bg-primary.car.card-wrapper div.card div#card-inside.card-body div.rounded-icon i , html body main div.container div#why-choose.d-flex div.col-9.bg-danger.d-flex.align-items-center.justify-content-evenly div.card div#card-inside.card-body div.rounded-icon i.fa-solid.fa-cube , html body main div.container div#why-choose.d-flex div.col-9.bg-danger.d-flex.align-items-center.justify-content-evenly div.card div#card-inside.card-body div.rounded-icon i.fa-regular.fa-images {
+    font-size: 30px;
+    color: rgb(125, 204, 135) !important;
+    opacity: 1;
+    
+}
+.card-body, .card {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+#card-inside{
+    padding-top: 20px;
+}
+p.card-text{
+    font-size: 14px !important;
+    text-align: center;
+}
+h5.card-title{
+    text-align: center;
+    /* padding-top: 20px; */
+}
+#tables {
+    position: relative;
+    padding-top: 15%;
+    width: 95%;
+
+}
+#course-section{
+    margin-top: 3% ;
+}
+#ppl {
+    display: flex !important;
+}
+#courses .card-body span {
+    background-color: greenyellow;
+padding: 2px;
+border-radius: 3px;
+align-self: flex-start;
+margin-bottom: 8px;
+}
+.container .card ul li {
+    margin: 0 3px;
+    
+}
+.container .card ul li a {
+    color: gray !important;
+}
+#tables [class*="col"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0) !important;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 50px !important;
+    padding: 0 !important;
+    /* margin: 0; */
+    /* margin: 1%; */
+}
+#tables [class*="col"] i {
+    padding-right: 10px;
+}
+/* #tables [class*="col"] > span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+#tables .container .row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#title , .title {
+     width: 90vw;
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+}
+#title h2 {
+    font-size: 1.5vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+    display: inline-block;
+    margin: 0;
+}
+#title span{
+    display: inline-block;
+    content: "";
+    background-color: green;
+    width: 20%;
+    margin-left: 5px;
+    height: 2px;
+}
+
+/* #title {
+    position: relative;
+    top: 
+    20% !important;
+} */
+
+/* Media Queries */
+@media screen and (max-width:992px) {
+    .container-fluid .collapse ul {
+        display: none;
+    }
+    
+    html body main div#who-we-are.d-flex.justify-content-between div.col-6.bg-gradient.p-4 img.w-100.h-100 {
+        width: 90% !important;
+        height: auto !important;
+    }
+    
+    #who-we-are div > * {
+        float: right !important;
+    }
+    #who-we-are div > h3 {
+        font-size: 3.0vw !important;
+    }
+    #who-we-are div > var {
+        font-size: 2.0vw !important;
+    }
+    #who-we-are div ul li {
+        font-size: 1.5vw !important;
+    }
+    #who-we-are div p {
+        font-size: 1.5vw;
+        /* right: 3%;
+        position: absolute;
+        top: 70%;
+        width: 45%; */
+    }
+
+    html body main div.container div#why-choose.d-flex.flex-md-wrap.flex-md-shrink-0 div.col-9.d-flex.align-items-center.justify-content-evenly {
+        display: block !important;
+        
+    }
+    html body main div.container div#why-choose.d-flex.flex-md-wrap.flex-md-shrink-0 div.col-9.d-flex.align-items-center.justify-content-evenly div {
+        margin: 2%;
+    }
+    html body main div.container div#why-choose.d-flex.flex-md-wrap.flex-md-shrink-0 div.col-3.bg-success.p-4.rounded {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+footer div ul  {
+    list-style: none;
+}
+footer div ul li a {
+    text-decoration: none !important;
+    color: black !important;
+}
+footer div {
+    margin: 30px 0;
+}
+footer .container {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#price-web , #price-marketing , #price-content {
+    background-color: transparent !important;
+    align-self: flex-end !important;
+    justify-content: flex-start !important;
+}
+.card-contents {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    display: flex;
+}
+
+.profile div {
+    flex-basis: 50%;
+}
+
+.profile div img {
+    border-radius: 50%;
+    width: 30%;
+}
+.profile div span {
+    background-color: transparent !important;
+}
+.profile div div span {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.profile div div {
+    display: flex;
+    align-items: center !important;
+}
